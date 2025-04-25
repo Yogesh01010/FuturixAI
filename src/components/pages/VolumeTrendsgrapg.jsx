@@ -35,7 +35,7 @@ const CustomTooltip = ({ active, payload }) => {
 
 const VolumeTrendsChart = () => {
   return (
-    <div className="bg-[#0A0F1A] text-white p-6 w-[1750px] h-[526px] shadow-md">
+    <div className="bg-[#0A0F1A] text-white p-6 shadow-md">
       <h2 className="text-white font-semibold text-xl mb-4">Volume Trends</h2>
       <ResponsiveContainer width="100%" height={300}>
         <LineChart data={data} margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
