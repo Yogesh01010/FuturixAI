@@ -21,7 +21,7 @@ export default function CiplaFAQs() {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white p-6 space-y-4">
+    <div className="bg-gray-900 text-white p-6 space-y-4">
       <h1 className="text-2xl font-semibold mb-4">Cipla Price FAQs</h1>
       {sections.map((section, index) => (
         <div
