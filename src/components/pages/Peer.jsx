@@ -14,7 +14,7 @@ const data = Array(8).fill({
 
 export default function PeersComparison() {
   return (
-    <div className="bg-[#111827] p-6 rounded-md">
+    <div className="bg-[#111827] p-6">
       <h2 className="text-white text-lg font-semibold mb-4">Peers Comparison</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full text-sm text-left">

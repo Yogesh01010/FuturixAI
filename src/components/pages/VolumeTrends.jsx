@@ -39,7 +39,7 @@ const CustomTooltip = ({ active, payload }) => {
 
 export default function VolumeTrends() {
   return (
-    <div className="bg-[#111827] p-6 rounded-md">
+    <div className="bg-[#111827] p-6">
       <h2 className="text-white text-lg font-semibold mb-4">Volume Trends</h2>
       <ResponsiveContainer width="100%" height={220}>
         <BarChart
